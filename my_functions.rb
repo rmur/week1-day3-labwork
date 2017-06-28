@@ -16,3 +16,7 @@ def find_item(array, name)
   end
   return false
 end
+
+def get_first_key (teacher_wallets)
+  return teacher_wallets.keys.first
+end
